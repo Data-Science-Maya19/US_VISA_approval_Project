@@ -1,0 +1,25 @@
+ipykernel # This is a requirements.txt file for a Python project. It lists the dependencies that need to be installed for the project to work properly. Each line specifies a package and optionally its version.
+pandas
+numpy
+matplotlib
+plotly
+seaborn
+scipy
+scikit-learn
+imblearn
+xgboost
+catboost
+pymongo
+from_root # A utility for importing modules from the root directory of a project, often used in Python projects to manage imports more cleanly
+evidently==0.2.8  # for MLOPS tool
+dill # For serializing Python objects, often used in machine learning for saving models
+PyYAML
+neuro_mf # A library for matrix factorization in Python, often used in recommendation systems
+boto3  # AWS SDK for Python
+mypy-boto3-s3 # MyPy type annotations for boto3
+botocore #  Low-level, data-driven core of boto3
+fastapi # FastAPI framework for building APIs
+uvicorn # ASGI server for FastAPI
+jinja2 # Templating engine for Python, used by FastAPI for rendering HTML templates
+python-multipart # For handling multipart/form-data, which is commonly used for file uploads in FastAPI
+-e .
