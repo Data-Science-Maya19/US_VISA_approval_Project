@@ -1,1 +1,7 @@
+__pycache__/
+
+# Ignor elog files
+*.log
+logs/
+
 
